@@ -13,7 +13,7 @@ function GET_FIVETRAN_AUTH(){
   var API_KEY = '<your api key>';
   var API_SECRET = '<your api secret>';
   
-  var httpHeaderAuth = 'Basic ' + Utilities.base64Encode(API_KEY + ':' + API_SECRET);
+  var httpHeaderAuth = {'Authorization': 'Basic ' + Utilities.base64Encode(API_KEY + ':' + API_SECRET)};
   
   return httpHeaderAuth;
 
