@@ -1,0 +1,10 @@
+{
+  "timezone": "Asia/Hong_Kong",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/forms"
+  ],
+  "runtimeVersion": "V8"
+}
