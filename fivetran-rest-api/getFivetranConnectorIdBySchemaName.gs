@@ -5,7 +5,7 @@ function getFivetranConnectorIdBySchemaName(group_id, schema_name){
   Description: Returns the connector id based on specified Fivetran group id and schema name.
   
   Parameters:
-    * group_id (string): id of Fivetran group to search.
+    * group_id (string): id of Fivetran group where connector exists.
     * schema_name (string): the schema name of the Fivetran connector (e.g., schema_name.table_name).
     
   Return Type: string
