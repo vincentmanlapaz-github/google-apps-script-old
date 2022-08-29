@@ -8,6 +8,8 @@ function modifiedFetchURL(url, params){
     * url (string): the URL to fetch.
     * params (object): the optional JavaScript object specifying advanced parameters.
   
+  Return Type: HTTPResponse
+  
   Source: https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app#fetchurl,-params
   
   */
