@@ -38,7 +38,7 @@ function getFivetranGroups(){
     };
     
     var cursorURL = url + '?cursor=' + jsonResponse.data.next_cursor;
-    response = modifiedFetchURL(url, params);
+    response = modifiedFetchURL(cursorURL, params);
     jsonResponse = JSON.parse(response.getContentText());
     cursor = jsonResponse.data.next_cursor;
     pageTurns += 1;
