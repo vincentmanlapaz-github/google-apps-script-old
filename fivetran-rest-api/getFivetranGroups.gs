@@ -5,6 +5,7 @@ function getFivetranGroups(){
   Description: Returns a key=value pair of Fivetran groups and ids in the account.
   
   Parameters: None
+  
   Return Type: object
   
   Source: https://fivetran.com/docs/rest-api/groups#listallgroups, https://fivetran.com/docs/rest-api/pagination
