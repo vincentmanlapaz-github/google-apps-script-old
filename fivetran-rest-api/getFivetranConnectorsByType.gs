@@ -20,7 +20,7 @@ function getFivetranConnectorsByType(group_id, connector_type){
     Logger.log('Set parameter group_id to value [%s]', group_id);
     Logger.log('Set parameter connector_type to value [%s]', connector_type);
   
-  }  catch(e) {
+  } catch(e) {
   
     throw 'Parameter "group_id" or "connector_type" is missing.'
   
