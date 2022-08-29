@@ -1,2 +1,2 @@
 # google-apps-script
-List of Google Apps Script projects.
+Here's a list of Google Apps Script projects I developed.
